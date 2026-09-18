@@ -1,18 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+    
+    <title>Hoja de Vida - Karla Vanessa Lopez Garcia</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-    <header> <!--encabezado principal-->
-        <h1> KARLA VANESSA LOPEZ GARCIA 🌸🌷͙֒🩷 </h1>
-        <h2>ESTUDIANTE DE INGENIERIA DE SISTEMAS 🎀🎀</h2>
-        <img src="img/mi_foto.webp" alt="fotografia de vanessa lopez" width="300">
+
+    <header>
+
+        <h1>
+            KARLA VANESSA LOPEZ GARCIA 🌸🌷͙֒🩷
+        </h1>
+
+        <h2>
+            ESTUDIANTE DE INGENIERIA DE SISTEMAS 🎀🎀
+        </h2>
+
+        <img
+            src="img/mi_foto.webp"
+            alt="Fotografía de Karla Vanessa Lopez"
+            width="300"
+        >
 
     </header>
 
@@ -23,59 +38,25 @@
 
         <div>
 
-            <!-- Perfil profesional -->
+            <section class="seccion" id="Perfil">
 
-            <section class="seccion" id="Perfil" <h2> MI PERFIL 🦋 </h2>
+                <h2>MI PERFIL 🦋</h2>
 
                 <p>
                     Estudiante de Ingeniería de Sistemas, responsable,
                     proactiva y con interés en el desarrollo tecnológico.
-                    Con capacidad de aprendizaje, trabajo en equipo y resolución de problemas.
-                    Comprometida con el crecimiento profesional y la adquisición de nuevos conocimientos.
+                    Con capacidad de aprendizaje, trabajo en equipo y
+                    resolución de problemas. Comprometida con el crecimiento
+                    profesional y la adquisición de nuevos conocimientos.
                 </p>
+
                 <p>
-                    Responsable, proactiva y con interés en el desarrollo tecnológico.
-                    Con capacidad de aprendizaje, trabajo en equipo y resolución de problemas.
+                    Responsable, proactiva y con interés en el desarrollo
+                    tecnológico. Con capacidad de aprendizaje, trabajo
+                    en equipo y resolución de problemas.
                 </p>
-        </div>
-        </section>
 
-        <hr>
-        <hr>
-
-        <div>
-            <!-- Información de contacto -->
-
-            <section class="seccion" id="contacto" <h2>Información de contacto 🎀🎀</h2>
-                <p>vl751412@gmail.com</p>
-                <p>321 581 9750</p>
-                <p>PASTO NARIÑO COLOMBIA </p>
-
-        </div>
-
-        </section>
-
-        <hr>
-        <hr>
-
-        <!-- Educación -->
-        <div>
-            <h2>Educación 🎀🎀</h2>
-
-           
-           
-            <article class="Educación">
-
-                <h3>Ingeniería de Sistemas</h3>
-                <p>Universidad cesmag</p>
-                <p>Formación profesional para Ingeniería de Sistemas</p>
-
-
-            </article>
-
-            <h3>Bachillerato</h3>
-            <p>Institución Educativa</p>
-            <p>Bachiller Académico</p>
+            </section>
 
         </div>
 
@@ -83,181 +64,502 @@
         <hr>
 
         <div>
-            <!-- Experiencia  -->
+
+            <section class="seccion" id="contacto">
+
+                <h2>Información de contacto 🎀🎀</h2>
+
+                <p>
+                    <strong>Correo:</strong>
+
+                    <a href="mailto:vl751412@gmail.com">
+                        vl751412@gmail.com
+                    </a>
+                </p>
+
+                <p>
+                    <strong>Teléfono:</strong>
+
+                    <a href="tel:+573215819750">
+                        321 581 9750
+                    </a>
+                </p>
+
+                <p>
+                    <strong>Ubicación:</strong>
+                    Pasto, Nariño, Colombia
+                </p>
+
+                <h2>Envíame un mensaje 💌</h2>
+
+                <form>
+
+                    <div class="campo">
+
+                        <label for="nombre">
+                            Nombre:
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Escribe tu Nombre"
+                            required
+                        >
+                    </div>
+
+                    <!-- CORREO -->
+
+                    <div class="campo">
+
+                        <label for="correo">
+                            Correo:
+                        </label>
+
+                        <input
+                            type="email"
+                            id="correo"
+                            name="correo"
+                            placeholder="ejemplo@correo.com"
+                            required
+                        >
+
+                    </div>
+
+                    <div class="campo">
+
+                        <label for="telefono">
+                            Teléfono:
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="telefono"
+                            name="telefono"
+                            placeholder="300 000 0000"
+                        >
+
+                    </div>
+
+                    <div class="campo mensaje">
+
+                        <label for="mensaje">
+                            Envíame un mensaje:
+                        </label>
+
+                        <textarea
+                            id="mensaje"
+                            name="mensaje"
+                            placeholder="Escribe tu mensaje"
+                            rows="5"
+                            required
+                        ></textarea>
+
+                    </div>
+
+                    <button type="submit">
+                        Enviar
+                    </button>
+
+                </form>
+
+            </section>
+
+        </div>
+
+        <hr>
+        <hr>
+
+        <div>
+
+            <section class="seccion" id="educacion">
+
+                <h2>Educación 🎀🎀</h2>
+
+
+                <article class="Educación">
+
+                    <h3>
+                        Ingeniería de Sistemas
+                    </h3>
+
+                    <p>
+                        Universidad CESMAG
+                    </p>
+
+                    <p>
+                        Formación profesional para Ingeniería de Sistemas.
+                    </p>
+
+                </article>
+
+                <article class="Educación">
+
+                    <h3>
+                        Bachillerato
+                    </h3>
+
+                    <p>
+                        Institución Educativa
+                    </p>
+
+                    <p>
+                        Bachiller Académico
+                    </p>
+
+                </article>
+
+            </section>
+
+        </div>
+
+        <hr>
+        <hr>
+
+        <div>
 
             <section class="seccion" id="Experiencia">
 
                 <h2>Experiencia 🎀🎀</h2>
-                 
+
                 <table>
-                 
-                  <thead>
-               <tr>
-                  <th>Cargo</th>
-                  <th>Organización</th>
-                  <th>Periodo</th>
-               </tr>
-                  </thead>
-                  
-               <tbody>
-                  
-                  <tr>
-                     <td>Estudiante </td>
-                     <td>univercidad cesmag</td>
-                     <td>2024 - actual</td>
-                  </tr>
-                  <tr>
-                     <td>Asesora de ventas</td>
-                     <td>CrediYa Ricaurte Nariño</td>
-                     <td>2025 - 2026</td>
-                  </tr>  
-                  <tr>
-                     <td>Guia turistica </td>
-                     <td>Reserva Natural Rio Ñambi</td>
-                     <td>2020 - actual</td>
-                  </tr>
-                  
-               </tbody>
-               
-               </table>
 
-                <Article class="Experiencia">
+                    <thead>
 
-                    <h3>Asistente de ventas.</h3>
-                    <p>Atención y orientación a clientes.</p>
-                    <p>Manejo de productos y registro de ventas.</p>
+                        <tr>
 
-                    <ul>
+                            <th>Cargo</th>
 
-                        <li>Soporte básico a equipos de cómputo.</li>
-                        <li>Organización de inventario.</li>
-                        <li>Manejo responsable de dinero y documentos.</li>
+                            <th>Organización</th>
 
-                    </ul>
-                </article>
+                            <th>Periodo</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>
+                                Estudiante
+                            </td>
+
+                            <td>
+                                Universidad CESMAG
+                            </td>
+
+                            <td>
+                                2024 - actual
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>
+                                Asesora de ventas
+                            </td>
+
+                            <td>
+                                CrediYa Ricaurte Nariño
+                            </td>
+
+                            <td>
+                                2025 - 2026
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>
+                                Guía turística
+                            </td>
+
+                            <td>
+                                Reserva Natural Río Ñambí
+                            </td>
+
+                            <td>
+                                2020 - actual
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
 
 
                 <article class="Experiencia">
-                    <h3>Trabajo colaborativo y solución de problemas durante el desarrollo de proyectos.</h3>
-                    <p>Trabajo colaborativo con compañeros.</p>
-                    <p>2025 - 2026</p>
 
+                    <h3>
+                        Asistente de ventas
+                    </h3>
+
+                    <p>
+                        Atención y orientación a clientes.
+                    </p>
+
+                    <p>
+                        Manejo de productos y registro de ventas.
+                    </p>
 
 
                     <ul>
 
-                        <li>Presentación y exposición de proyectos.</li>
-                        <li>Cumplimiento de actividades y fechas de entrega.</li>
-                        <li>Distribución de tareas dentro de un equipo.</li>
+                        <li>
+                            Soporte básico a equipos de cómputo.
+                        </li>
 
-                 
-                   </ul>
-                 
-                    </article>
+                        <li>
+                            Organización de inventario.
+                        </li>
 
-              
+                        <li>
+                            Manejo responsable de dinero y documentos.
+                        </li>
+
+                    </ul>
+
+                </article>
+
+                <article class="Experiencia">
+
+                    <h3>
+                        Trabajo colaborativo y solución de problemas
+                        durante el desarrollo de proyectos.
+                    </h3>
+
+                    <p>
+                        Trabajo colaborativo con compañeros.
+                    </p>
+
+                    <p>
+                        2025 - 2026
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            Presentación y exposición de proyectos.
+                        </li>
+
+                        <li>
+                            Cumplimiento de actividades y fechas de entrega.
+                        </li>
+
+                        <li>
+                            Distribución de tareas dentro de un equipo.
+                        </li>
+
+                    </ul>
+
+                </article>
+
+            </section>
 
         </div>
-
-        </section>
 
         <hr>
         <hr>
 
         <div>
-            <!-- Habilidades -->
 
-            <section class="seccion" id="Habilidades" <h2>Habilidades 🎀🎀 </h2>
+            <section class="seccion" id="Habilidades">
 
-                <h3>Responsabilidad y compromiso.</h3>
+                <h2>
+                    Habilidades 🎀🎀
+                </h2>
+
+                <h3>
+                    Responsabilidad y compromiso.
+                </h3>
+
 
                 <ol>
-                    <li>Resolución de problemas</li>
-                    <li>Pensamiento lógico y analítico</li>
-                    <li>Trabajo en equipo</li>
-                    <li>Aprendizaje rápido</li>
-                    <li>Organización y responsabilidad</li>
-                    <li>Creatividad e innovación</li>
-                    <li>Adaptabilidad a nuevas tecnologías</li>
-                    <li>Manejo de herramientas informáticas</li>
-                    <li>Comunicación efectiva</li>
-                    <li>Capacidad para trabajar bajo presión</li>
+
+                    <li>
+                        Resolución de problemas
+                    </li>
+
+                    <li>
+                        Pensamiento lógico y analítico
+                    </li>
+
+                    <li>
+                        Trabajo en equipo
+                    </li>
+
+                    <li>
+                        Aprendizaje rápido
+                    </li>
+
+                    <li>
+                        Organización y responsabilidad
+                    </li>
+
+                    <li>
+                        Creatividad e innovación
+                    </li>
+
+                    <li>
+                        Adaptabilidad a nuevas tecnologías
+                    </li>
+
+                    <li>
+                        Manejo de herramientas informáticas
+                    </li>
+
+                    <li>
+                        Comunicación efectiva
+                    </li>
+
+                    <li>
+                        Capacidad para trabajar bajo presión
+                    </li>
+
                 </ol>
 
-        </div>
-
-        </section>
-
-        <hr>
-        <hr>
-
-        <div>
-            <!-- Proyectos -->
-
-            <section class="seccion" id="proyectos" <h2>Proyectos 🎀🎀</h2>
-
-                <h3>Página web personal 🎀🎀 </h3>
-                <p>
-                    Creación de una página web para presentar mi información personal,
-                    académica y profesional utilizando HTML.
-                </p>
-
-                <h3>Base de datos para estudiantes</h3>
-                <p>
-                    Proyecto académico para organizar información de estudiantes,
-                    aplicando conocimientos básicos de bases de datos y SQL.
-                </p>
-
-                <h3>Página web de pasatiempos</h3>
-                <p>
-                    Desarrollo de una página web para mostrar mis pasatiempos e intereses,
-                    aplicando los conocimientos aprendidos en HTML.
-                </p>
+            </section>
 
         </div>
-
-        </section>
 
         <hr>
         <hr>
 
         <div>
 
-            <section class="seccion" id="MIS REDES SOCIALES" <h3>MIS REDES SOCIALES 🎀🎀🎀🎀</h3>
+            <section class="seccion" id="proyectos">
 
-                <!-- me indica que voy a tner una lista NO ORDENADA -->
+                <h2>
+                    Proyectos 🎀🎀
+                </h2>
+
+                <article>
+
+                    <h3>
+                        Página web personal 🎀🎀
+                    </h3>
+
+                    <p>
+                        Creación de una página web para presentar mi
+                        información personal, académica y profesional
+                        utilizando HTML.
+                    </p>
+
+                </article>
+
+                <article>
+
+                    <h3>
+                        Base de datos para estudiantes
+                    </h3>
+
+                    <p>
+                        Proyecto académico para organizar información
+                        de estudiantes, aplicando conocimientos básicos
+                        de bases de datos y SQL.
+                    </p>
+
+                </article>
+
+                <article>
+
+                    <h3>
+                        Página web de pasatiempos
+                    </h3>
+
+                    <p>
+                        Desarrollo de una página web para mostrar mis
+                        pasatiempos e intereses, aplicando los
+                        conocimientos aprendidos en HTML.
+                    </p>
+
+                </article>
+
+            </section>
+
+        </div>
+
+        <hr>
+        <hr>
+
+        <div>
+
+            <section class="seccion" id="redes">
+
+                <h2>
+                    Mis redes sociales 🎀🎀
+                </h2>
+
                 <ol>
-                    <!-- < un li por cada elemento que va a tener mi lista < -->
+
                     <li>
-                        <a href="https://www.facebook.com/?locale=es_LA">FACEBOOK</a>
+
+                        <a
+                            href="https://www.instagram.com/"
+                            target="_blank"
+                        >
+                            Instagram
+                        </a>
+
                     </li>
+
                     <li>
-                        <a href="https://www.youtube.com/?app=desktop&hl=es">CANAL DE YOUTUBE</a>
+
+                        <a
+                            href="https://www.facebook.com/?locale=es_LA"
+                            target="_blank"
+                        >
+                            Facebook
+                        </a>
+
                     </li>
+
                     <li>
-                        <a href="https://www.instagram.com/">INSTAGRAM</a>
+
+                        <a
+                            href="https://www.youtube.com/?app=desktop&hl=es"
+                            target="_blank"
+                        >
+                            YouTube
+                        </a>
+
                     </li>
 
                 </ol>
 
+            </section>
+
         </div>
 
-        </section>
-
         <hr>
         <hr>
 
-        <h2>
-            <a href="pasatiempos.html">Dale clic aquí para conocer mis pasatiempos favoritos</a>
+            <a href="pasatiempos.html">
+                Dale clic aquí para conocer mis pasatiempos favoritos
+            </a>
+
         </h2>
 
+
     </main>
+
     <hr>
+
     <footer>
+
         <p>
-            𝒌────୨ৎ──── Hoja de vida Karla Vanessa Lopez 🌸🌷🩷────୨ৎ────𝒌
+            𝒌────୨ৎ──── Hoja de vida Karla Vanessa Lopez 🌸🌷🩷
+            ────୨ৎ────𝒌
         </p>
+
     </footer>
+
 </body>
 
 </html>

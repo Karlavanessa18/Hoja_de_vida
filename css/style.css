@@ -1,0 +1,20 @@
+body{
+    background-color: #e7adcd;
+    color: rgb(255, 0, 140);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    color:darkorchid;
+    font-size: 40px;
+}
+
+.seccion{
+
+    background-color: aliceblue;
+}
+
+#perfil {
+    background-color: #e7adcd;
+}
