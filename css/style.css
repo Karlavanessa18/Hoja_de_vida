@@ -6,15 +6,15 @@ body{
 }
 
 h1{
-    color:darkorchid;
+    color:rgb(241, 0, 201);
     font-size: 40px;
 }
 
 .seccion{
 
-    background-color: aliceblue;
+    background-color: rgb(233, 154, 206);
 }
 
-#perfil {
-    background-color: #e7adcd;
+#Perfil {
+    background-color: #ece8eb;
 }
