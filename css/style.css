@@ -1,20 +1,50 @@
-body{
-    background-color: #e7adcd;
-    color: rgb(255, 0, 140);
-    font-family: Arial, Helvetica, sans-serif;
-
+body {
+    background-color: #F7D6E6;
+    color: #7A1F4D;
+    font-family: 'Poppins', sans-serif;
 }
 
-h1{
-    color:rgb(241, 0, 201);
+h1 {
+    color: #C2185B;
+    font-family: 'Playfair Display', serif;
     font-size: 40px;
 }
 
-.seccion{
+h2 {
+    color: #AD1457;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+}
 
-    background-color: rgb(233, 154, 206);
+h3 {
+    color: #880E4F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.seccion {
+    background-color: #F8BBD0;
 }
 
 #Perfil {
-    background-color: #ece8eb;
+    background-color: #F7D6E6;
+}
+
+header {
+    background-color: #F48FB1;
+    color: #880E4F;
+    text-align: center;
+}
+
+header h1 {
+    color: #AD1457;
+}
+
+header h2 {
+    color: #C2185B;
+    font-family: 'Poppins', sans-serif;
 }
