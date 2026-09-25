@@ -1,9 +1,18 @@
+
+*{
+    box-sizing: border-box;
+}
 body {
+    margin: 0;
     background-color: #F7D6E6;
     color: #7A1F4D;
     font-family: 'Poppins', sans-serif;
+    line-height: 1.6 ;
 }
 
+*{
+    box-sizing: border-box;
+}
 h1 {
     color: #C2185B;
     font-family: 'Playfair Display', serif;
@@ -27,11 +36,16 @@ p {
 }
 
 .seccion {
-    background-color: #F8BBD0;
+    background-color: #ee7297;
+    padding: 25 px ;
+    margin: 20 px ;
+    border: 1px solid #ec81aa;
+    border-radius: 10px;
 }
 
-#Perfil {
-    background-color: #F7D6E6;
+.seccion h2 {
+    background-color: #F8BBD0;
+    margin-top: 0 ;
 }
 
 header {
@@ -47,4 +61,126 @@ header h1 {
 header h2 {
     color: #C2185B;
     font-family: 'Poppins', sans-serif;
+}
+
+header img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fafafa;
+}
+
+h2{
+    color: #be2e5e;
+    font-size: 20px ;
+}
+
+h3{
+    color: #cc4e78;
+    font-size: 20px ;
+}
+
+a{
+    color: #e2d0d6;
+    text-decoration: none;
+}
+
+ul{
+    padding-left: 20 px;
+
+}
+
+li{
+    margin-bottom: 5 px ;
+}
+
+form{
+    margin-top: 20px ;
+
+}
+
+label{
+    display: block ;
+    margin-bottom: 5px ;
+    font-weight: bold ;
+}
+
+input,
+textarea{
+    width: 100% ;
+    padding: 10 px;
+    margin-bottom: 15px ;
+    border: 1px solid #880E4F;
+    font-family: inherit;
+}
+
+textarea {
+    min-height: 120px ;
+    resize: vertical;
+}
+
+button {
+    background-color: #b9557d;
+    color: #e2d0d6;
+    border: none ;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+table {
+    width: 100% ;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid #ff0080;
+    padding: 10px;
+    text-align: left;
+}
+
+th{
+    background-color: #C2185B;
+    color: #e2d0d6;
+}
+
+#Perfil {
+    background-color: #F7D6E6;
+}
+
+.experiencia{
+    background-color: #cecece;
+    padding: 15px ;
+    margin: 15px ;
+    border: 1px solid #F8BBD0;
+    border-radius: 8px ;
+}
+
+
+.formacion{
+    background-color: #e2d6da;
+    padding: 15px ;
+    margin: 15px ;
+    border: 1px solid #F8BBD0;
+    border-radius: 8px ;
+}
+
+.habilidades{
+    background-color: #e9dfe2;
+    padding: 15px ;
+    margin: 15px ;
+    border: 1px solid #f1eaec;
+    border-radius: 8px ;
+}
+
+footer{
+    background-color: #da4d8a;
+    color: #e9dfe2;
+    text-align: center;
+    padding: 20px ;
+}
+
+footer p{
+    margin: 0;
 }
